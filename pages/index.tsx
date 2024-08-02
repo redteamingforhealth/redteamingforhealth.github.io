@@ -11,7 +11,7 @@ import { faGithubSquare, faLinkedin, faXTwitter } from "@fortawesome/free-brands
 import Tooltip from '@mui/material/Tooltip';
 
 import Box from '@mui/material/Box';
-import { Grid, Item } from '@mui/material';
+import { Grid } from '@mui/material';
 
 const mate = Mate({ subsets: ['latin'], weight: ["400"] });
 
