@@ -55,7 +55,6 @@ export default class Home extends React.Component<any, any> {
             <center>
               <img src="llm_redteam_icon_light.png" alt="Light Mode" className="block dark:hidden" style={{width: "125px"}}/>
               <img src="llm_redteam_icon_dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "125px"}}/>
-              {/* <img src="llm_redteam_icon_dark.png" alt="Logo" style={{width: "95%", padding: "2px"}}/> */}
             </center>
             </Box>
             <Box width={6/10} p={1}>
@@ -513,6 +512,131 @@ export default class Home extends React.Component<any, any> {
               
 
           )}
+          <br></br>
+
+          {this.state.isMobile ? (
+            <Box p={2} border={1} boxShadow={3}>
+            <center style={{paddingBottom: "8px"}} className="text-lg">Sponsors</center>
+            <hr style={{paddingBottom: "8px"}}></hr>
+
+            
+
+            {/* Add a 2 x 2 set of boxes below the title. Each box should contain an image (left),
+            and a paragraph of text (right). The image should be profile.jpg; text says "SAMPLE" */}
+            <Grid container spacing={2}>
+              <Grid item xs={12}>
+                {/* Make a 1 x 2 grid, 30% width and 60% width */}
+                <Grid container spacing={2}>
+                  <Grid item xs={6}>
+                    <center>
+                    <img src="uoft.png" alt="Light Mode" className="block dark:hidden" style={{width: "50%"}}/>
+                    <img src="uoft-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "50%"}}/>
+                    </center>
+                  </Grid>
+                  {/* Align text vertically centered */}
+                  <Grid item xs={6} style={{display: "flex", alignItems: "center"}}>
+                    <p className="text-xl">University of Toronto</p>
+                  </Grid>
+                </Grid>
+              </Grid>
+              <Grid item xs={12}>
+                {/* Make a 1 x 2 grid, 30% width and 60% width */}
+                <Grid container spacing={2}>
+                  <Grid item xs={6}>
+                    <center>
+                    <img src="openai.png" alt="Light Mode" className="block dark:hidden" style={{width: "35%"}}/>
+                    <img src="openai-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "35%"}}/>
+                    </center>
+                  </Grid>
+                  {/* Align text vertically centered */}
+                  <Grid item xs={6} style={{display: "flex", alignItems: "center"}}>
+                    <p className="text-xl">OpenAI</p>
+                  </Grid>
+                </Grid>
+              </Grid>
+              <Grid item xs={12}>
+                {/* Make a 1 x 2 grid, 30% width and 60% width */}
+                <Grid container spacing={2}>
+                  <Grid item xs={6}>
+                    <center>
+                      <img src="vector.png" alt="Light Mode" className="block dark:hidden" style={{width: "40%"}}/>
+                      <img src="vector-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "40%"}}/>                    
+                    </center>
+                  </Grid>
+                  {/* Align text vertically centered */}
+                  <Grid item xs={6} style={{display: "flex", alignItems: "center"}}>
+                    <p className="text-xl">Vector Institute</p>
+                  </Grid>
+                </Grid>
+              </Grid>
+            </Grid>
+            </Box>
+          ) : (
+
+            <Box p={2} border={1} boxShadow={3}>
+              <center style={{paddingBottom: "8px"}} className="text-lg">Sponsors</center>
+              <hr style={{paddingBottom: "8px"}}></hr>
+
+              {/* Add a 2 x 2 set of boxes below the title. Each box should contain an image (left),
+              and a paragraph of text (right). The image should be profile.jpg; text says "SAMPLE" */}
+              <Grid container spacing={2}>
+                <Grid item xs={6}>
+                  {/* Make a 1 x 2 grid, 30% width and 60% width */}
+                  <Grid container spacing={2}>
+                    <Grid item xs={4}>
+                      <center>
+                      <img src="uoft.png" alt="Light Mode" className="block dark:hidden" style={{width: "100%"}}/>
+                      <img src="uoft-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "100%"}}/>
+                      </center>
+                    </Grid>
+                    <Grid item xs={8} style={{display: "flex", alignItems: "center"}}>
+                      <p className="text-xl">University of Toronto</p>                      
+                    </Grid>
+                  </Grid>
+                  
+                </Grid>
+                <Grid item xs={6}>
+                  {/* Make a 1 x 2 grid, 30% width and 60% width */}
+                  <Grid container spacing={2}>
+                    <Grid item xs={4}>
+                    <center>
+                      <img src="openai.png" alt="Light Mode" className="block dark:hidden" style={{width: "100%"}}/>
+                      <img src="openai-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "100%"}}/>
+                      </center>
+                    </Grid>
+                    <Grid item xs={8} style={{display: "flex", alignItems: "center"}}>
+                      <p className="text-xl">OpenAI</p>                      
+                    </Grid>
+                  </Grid>
+                </Grid>
+                {/* hline */}
+                <Grid item xs={12}>
+                  {/* Make a grid item that spans the WHOLE WIDTH otherwise the universe will end */}
+                  {/* Make it the same format as the others */}
+                  <Grid container spacing={2}>
+                    <Grid item xs={4}>
+                    </Grid>
+                    <Grid item xs={2}>
+                      <center>
+                      <img src="vector.png" alt="Light Mode" className="block dark:hidden" style={{width: "100%"}}/>
+                      <img src="vector-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "100%"}}/>
+                      </center>
+                    </Grid>
+                    <Grid item xs={4} style={{display: "flex", alignItems: "center"}}>
+                      <p className="text-xl">Vector Institute</p>                      
+                    </Grid>
+                  </Grid>
+
+                </Grid>
+              </Grid>
+              
+
+            </Box>
+              
+
+          )}
+
+
         </main>
       {/* Pass in whether we are on mobile to the footer */}
       <FooterBar isMobile={this.state.isMobile}/>
