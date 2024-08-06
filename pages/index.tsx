@@ -61,8 +61,8 @@ export default class Home extends React.Component<any, any> {
             <Box width={6/10} p={1}>
               <h1 className="text-xl" style={{paddingBottom: "8px"}}>Red Teaming Large Language Models for Healthcare</h1>
               <p className="text-sm">Workshop at Machine Learning for Healthcare (MLHC), 2024</p>
-              <p className="text-sm">August 15, 2024, 1:00PM -- 5:00PM</p>
-              <p className="text-sm">27 King's College Cir, Toronto, Ontario</p>
+              <p className="text-sm">August 15, 2024, 1:00PM &mdash; 5:00PM</p>
+              <p className="text-sm"><a href="https://maps.app.goo.gl/YYivAPWMNaWVZD9b7">27 King's College Cir, Toronto, Ontario</a></p>
               <br></br>
               <Button variant="contained" color="primary" href="https://events.eventzilla.net/e/mlhc-preconference-workshop-2138630204">Register Here</Button>
             </Box>
@@ -79,8 +79,8 @@ export default class Home extends React.Component<any, any> {
               <Box width={8/10} p={1}>
                 <h1 className="text-xl" style={{paddingBottom: "8px"}}>Red Teaming Large Language Models for Healthcare</h1>
                 <p className="text-sm">Workshop at Machine Learning for Healthcare (MLHC), 2024</p>
-                <p className="text-sm">August 15, 2024, 1:00PM -- 5:00PM</p>
-                <p className="text-sm">27 King's College Cir, Toronto, Ontario</p>
+                <p className="text-sm">August 15, 2024, 1:00PM &mdash; 5:00PM</p>
+                <p className="text-sm"><a href="https://maps.app.goo.gl/YYivAPWMNaWVZD9b7">27 King's College Cir, Toronto, Ontario</a></p>
                 <br></br>
                 <Button variant="contained" color="primary" href="https://events.eventzilla.net/e/mlhc-preconference-workshop-2138630204">Register Here</Button>
               </Box>

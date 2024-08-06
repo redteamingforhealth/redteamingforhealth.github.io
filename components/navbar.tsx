@@ -16,7 +16,7 @@ export default function ButtonAppBar() {
         </Typography>
         {/* Use the Mate font -- make font size bigger*/}
           <Button color="inherit" href="/" className={mate.className + " text-md"}>Home</Button>
-          {/* <Button color="inherit" href="/bio" className={mate.className + " text-md"}>Bio</Button> */}
+          <Button color="inherit" href="/logistics" className={mate.className + " text-md"}>Logistics</Button>
           {/* <Button color="inherit" href="/projects" className={mate.className + " text-md"}>Projects</Button> */}
           {/* <Button color="inherit" href="/writing" className={mate.className + " text-md"}>Writing</Button> */}
           {/* <Button color="inherit" className={mate.className}>CV</Button> */}
