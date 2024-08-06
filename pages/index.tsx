@@ -63,7 +63,8 @@ export default class Home extends React.Component<any, any> {
               <p className="text-sm">August 15, 2024, 1:00PM &mdash; 5:00PM</p>
               <p className="text-sm"><a href="https://maps.app.goo.gl/YYivAPWMNaWVZD9b7">27 King's College Cir, Toronto, Ontario</a></p>
               <br></br>
-              <Button variant="contained" color="primary" href="https://events.eventzilla.net/e/mlhc-preconference-workshop-2138630204">Register Here</Button>
+              <Button variant="contained" color="primary" style={{backgroundColor: "secondary", color: "white", fontFamily: "latin"}} href="https://events.eventzilla.net/e/mlhc-preconference-workshop-2138630204">Register Here</Button>
+              {/* Make another button that is white with blue font */}
             </Box>
           </Box>
           ) : (
@@ -81,7 +82,7 @@ export default class Home extends React.Component<any, any> {
                 <p className="text-sm">August 15, 2024, 1:00PM &mdash; 5:00PM</p>
                 <p className="text-sm"><a href="https://maps.app.goo.gl/YYivAPWMNaWVZD9b7">27 King's College Cir, Toronto, Ontario</a></p>
                 <br></br>
-                <Button variant="contained" color="primary" href="https://events.eventzilla.net/e/mlhc-preconference-workshop-2138630204">Register Here</Button>
+                <Button variant="contained" color="primary" style={{backgroundColor: "secondary", color: "white", fontFamily: "latin"}} href="https://events.eventzilla.net/e/mlhc-preconference-workshop-2138630204">Register Here</Button>
               </Box>
             </Box>
           )} 
