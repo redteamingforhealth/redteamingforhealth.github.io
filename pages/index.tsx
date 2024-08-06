@@ -121,7 +121,7 @@ export default class Home extends React.Component<any, any> {
                 <Grid container spacing={2}>
                   <Grid item xs={6}>
                     <center>
-                    <img src="michael.jpg" style={{width: "50%"}}/>
+                    <img src="michael.jpg" style={{width: "50%", maxWidth: "100px"}}/>
                     </center>
                   </Grid>
                   <Grid item xs={6}>
@@ -171,7 +171,7 @@ export default class Home extends React.Component<any, any> {
                 <Grid container spacing={2}>
                   <Grid item xs={6}>
                     <center>
-                    <img src="vahid.png" style={{width: "50%"}}/>
+                    <img src="vahid.png" style={{width: "50%", maxWidth: "100px"}}/>
                     </center>
                   </Grid>
                   <Grid item xs={6}>
@@ -220,7 +220,7 @@ export default class Home extends React.Component<any, any> {
                 <Grid container spacing={2}>
                   <Grid item xs={6}>
                     <center>
-                    <img src="david.jpeg" style={{width: "50%"}}/>
+                    <img src="david.jpeg" style={{width: "50%", maxWidth: "100px"}}/>
                     </center>
                   </Grid>
                   <Grid item xs={6}>
@@ -259,7 +259,7 @@ export default class Home extends React.Component<any, any> {
                 <Grid container spacing={2}>
                   <Grid item xs={6}>
                     <center>
-                    <img src="rahul.jpg" style={{width: "50%"}}/>
+                    <img src="rahul.jpg" style={{width: "50%", maxWidth: "100px"}}/>
                     </center>
                   </Grid>
                   <Grid item xs={6}>
@@ -319,7 +319,7 @@ export default class Home extends React.Component<any, any> {
                   {/* Make a 1 x 2 grid, 30% width and 60% width */}
                   <Grid container spacing={2}>
                     <Grid item xs={4}>
-                      <img src="michael.jpg" style={{width: "100%"}}/>
+                      <img src="michael.jpg" style={{width: "100%", maxWidth: "100px"}}/>
                     </Grid>
                     <Grid item xs={8}>
                       <p className="text-xl">Michael Cooper</p>
@@ -369,7 +369,7 @@ export default class Home extends React.Component<any, any> {
                   {/* Make a 1 x 2 grid, 30% width and 60% width */}
                   <Grid container spacing={2}>
                     <Grid item xs={4}>
-                      <img src="vahid.png" style={{width: "100%"}}/>
+                      <img src="vahid.png" style={{width: "100%", maxWidth: "100px"}}/>
                     </Grid>
                     <Grid item xs={8}>
                       <p className="text-xl">Vahid Balazadeh</p>
@@ -422,7 +422,7 @@ export default class Home extends React.Component<any, any> {
                   {/* Make a 1 x 2 grid, 30% width and 60% width */}
                   <Grid container spacing={2}>
                     <Grid item xs={4}>
-                      <img src="david.jpeg" style={{width: "100%"}}/>
+                      <img src="david.jpeg" style={{width: "100%", maxWidth: "100px"}}/>
                     </Grid>
                     <Grid item xs={8}>
                       <p className="text-xl">David Pellow</p>
@@ -461,7 +461,7 @@ export default class Home extends React.Component<any, any> {
                   {/* Make a 1 x 2 grid, 30% width and 60% width */}
                   <Grid container spacing={2}>
                     <Grid item xs={4}>
-                      <img src="rahul.jpg" style={{width: "100%"}}/>
+                      <img src="rahul.jpg" style={{width: "100%", maxWidth: "100px"}}/>
                     </Grid>
                     <Grid item xs={8}>
                       <p className="text-xl">Rahul G. Krishnan</p>
@@ -529,8 +529,8 @@ export default class Home extends React.Component<any, any> {
                 <Grid container spacing={2}>
                   <Grid item xs={6}>
                     <center>
-                    <img src="uoft.png" alt="Light Mode" className="block dark:hidden" style={{width: "50%"}}/>
-                    <img src="uoft-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "50%"}}/>
+                    <img src="uoft.png" alt="Light Mode" className="block dark:hidden" style={{width: "50%", maxWidth: "100px"}}/>
+                    <img src="uoft-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "50%", maxWidth: "100px"}}/>
                     </center>
                   </Grid>
                   {/* Align text vertically centered */}
@@ -544,8 +544,8 @@ export default class Home extends React.Component<any, any> {
                 <Grid container spacing={2}>
                   <Grid item xs={6}>
                     <center>
-                    <img src="openai.png" alt="Light Mode" className="block dark:hidden" style={{width: "35%"}}/>
-                    <img src="openai-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "35%"}}/>
+                    <img src="openai.png" alt="Light Mode" className="block dark:hidden" style={{width: "35%", maxWidth: "100px"}}/>
+                    <img src="openai-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "35%", maxWidth: "100px"}}/>
                     </center>
                   </Grid>
                   {/* Align text vertically centered */}
@@ -559,8 +559,8 @@ export default class Home extends React.Component<any, any> {
                 <Grid container spacing={2}>
                   <Grid item xs={6}>
                     <center>
-                      <img src="vector.png" alt="Light Mode" className="block dark:hidden" style={{width: "40%"}}/>
-                      <img src="vector-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "40%"}}/>                    
+                      <img src="vector.png" alt="Light Mode" className="block dark:hidden" style={{width: "40%", maxWidth: "100px"}}/>
+                      <img src="vector-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "40%", maxWidth: "100px"}}/>
                     </center>
                   </Grid>
                   {/* Align text vertically centered */}
@@ -585,12 +585,15 @@ export default class Home extends React.Component<any, any> {
                   <Grid container spacing={2}>
                     <Grid item xs={4}>
                       <center>
-                      <img src="uoft.png" alt="Light Mode" className="block dark:hidden" style={{width: "100%"}}/>
-                      <img src="uoft-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "100%"}}/>
+                      <img src="uoft.png" alt="Light Mode" className="block dark:hidden" style={{width: "100%", maxWidth: "100px"}}/>
+                      <img src="uoft-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "100%", maxWidth: "100px"}}/>
                       </center>
                     </Grid>
                     <Grid item xs={8} style={{display: "flex", alignItems: "center"}}>
-                      <p className="text-xl">University of Toronto</p>                      
+                      <div>
+                        <p className="text-xl">University of Toronto</p>
+                        <p className="text-sm">(Event Venue)</p>
+                      </div>                 
                     </Grid>
                   </Grid>
                   
@@ -600,12 +603,15 @@ export default class Home extends React.Component<any, any> {
                   <Grid container spacing={2}>
                     <Grid item xs={4} style={{display: "flex", alignItems: "center"}}>
                     <center>
-                      <img src="openai.png" alt="Light Mode" className="block dark:hidden" style={{width: "80%", paddingTop: "10%", paddingBottom: "10%"}}/>
-                      <img src="openai-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "80%", paddingTop: "10%", paddingBottom: "10%"}}/>
+                      <img src="openai.png" alt="Light Mode" className="block dark:hidden" style={{width: "80%", maxWidth: "100px", paddingTop: "10%", paddingBottom: "10%"}}/>
+                      <img src="openai-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "80%", maxWidth: "100px", paddingTop: "10%", paddingBottom: "10%"}}/>
                       </center>
                     </Grid>
                     <Grid item xs={8} style={{display: "flex", alignItems: "center"}}>
-                      <p className="text-xl">OpenAI</p>                      
+                      <div>
+                        <p className="text-xl">OpenAI</p>
+                        <p className="text-sm">(GPT-4o Credits)</p>      
+                      </div>            
                     </Grid>
                   </Grid>
                 </Grid>
@@ -614,16 +620,19 @@ export default class Home extends React.Component<any, any> {
                   {/* Make a grid item that spans the WHOLE WIDTH otherwise the universe will end */}
                   {/* Make it the same format as the others */}
                   <Grid container spacing={2}>
-                    <Grid item xs={4}>
+                    <Grid item xs={3}>
                     </Grid>
                     <Grid item xs={2}>
                       <center>
-                      <img src="vector.png" alt="Light Mode" className="block dark:hidden" style={{width: "90%"}}/>
-                      <img src="vector-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "90%"}}/>
+                      <img src="vector.png" alt="Light Mode" className="block dark:hidden" style={{width: "90%", maxWidth: "100px"}}/>
+                      <img src="vector-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "90%", maxWidth: "100px"}}/>
                       </center>
                     </Grid>
                     <Grid item xs={4} style={{display: "flex", alignItems: "center"}}>
-                      <p className="text-xl">Vector Institute</p>                      
+                      <div>
+                          <p className="text-xl">Vector Institute</p>
+                          <p className="text-sm">(Open Source Model Platform and Hosting)</p>      
+                        </div>  
                     </Grid>
                   </Grid>
 
