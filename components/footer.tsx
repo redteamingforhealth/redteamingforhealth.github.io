@@ -99,11 +99,11 @@ export default class FooterBar extends React.Component<any, any> {
                 size="1x"/>
             </Tooltip>
             }>
-        </IconButton>
+        </IconButton> */}
 
         <IconButton 
         color="inherit" 
-        href={"https://x.com/coopermj_aiml"}
+        href={"https://x.com/RedteamHealthLM"}
         children={
             <Tooltip title="X (Twitter)" placement="top" arrow>
                 <FontAwesomeIcon 
@@ -111,7 +111,7 @@ export default class FooterBar extends React.Component<any, any> {
                 size="1x"/>
             </Tooltip>
             }>
-        </IconButton> */}
+        </IconButton>
 
       <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} className={mate.className} style={{textAlign: 'center', fontSize: '14px'}}>
         { this.state.isMobile ? (
