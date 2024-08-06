@@ -140,12 +140,9 @@ export default class Home extends React.Component<any, any> {
           <div>
           <iframe 
           src="https://docs.google.com/presentation/d/e/2PACX-1vRNyN3ybP9iETPVG310AxYF6lQWJs_P5guxGG8xSUty2ZsSwY3F49G6Wfpkp5RSSxDnnG927cS6PyNA/embed?start=false&loop=false&delayms=3000" 
-          frameborder="0" 
           width="100%" 
           height="450"
-          allowfullscreen="true" 
-          mozallowfullscreen="true" 
-          webkitallowfullscreen="true"></iframe>
+          allowFullScreen={true}></iframe>
           </div>
 
           <br></br>
