@@ -598,10 +598,10 @@ export default class Home extends React.Component<any, any> {
                 <Grid item xs={6}>
                   {/* Make a 1 x 2 grid, 30% width and 60% width */}
                   <Grid container spacing={2}>
-                    <Grid item xs={4}>
+                    <Grid item xs={4} style={{display: "flex", alignItems: "center"}}>
                     <center>
-                      <img src="openai.png" alt="Light Mode" className="block dark:hidden" style={{width: "100%"}}/>
-                      <img src="openai-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "100%"}}/>
+                      <img src="openai.png" alt="Light Mode" className="block dark:hidden" style={{width: "80%", paddingTop: "10%", paddingBottom: "10%"}}/>
+                      <img src="openai-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "80%", paddingTop: "10%", paddingBottom: "10%"}}/>
                       </center>
                     </Grid>
                     <Grid item xs={8} style={{display: "flex", alignItems: "center"}}>
@@ -618,8 +618,8 @@ export default class Home extends React.Component<any, any> {
                     </Grid>
                     <Grid item xs={2}>
                       <center>
-                      <img src="vector.png" alt="Light Mode" className="block dark:hidden" style={{width: "100%"}}/>
-                      <img src="vector-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "100%"}}/>
+                      <img src="vector.png" alt="Light Mode" className="block dark:hidden" style={{width: "90%"}}/>
+                      <img src="vector-dark.png" alt="Dark Mode" className="hidden dark:block" style={{width: "90%"}}/>
                       </center>
                     </Grid>
                     <Grid item xs={4} style={{display: "flex", alignItems: "center"}}>
