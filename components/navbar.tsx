@@ -5,6 +5,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { Mate } from 'next/font/google'
 
+
 const mate = Mate({ subsets: ['latin'], weight: ["400"] });
 
 export default function ButtonAppBar() {
@@ -16,6 +17,7 @@ export default function ButtonAppBar() {
         </Typography>
         {/* Use the Mate font -- make font size bigger*/}
           <Button color="inherit" href="/" className={mate.className + " text-md"}>Home</Button>
+          <Button color="inherit" href="/background" className={mate.className + " text-md"}>Background</Button>
           <Button color="inherit" href="/logistics" className={mate.className + " text-md"}>Logistics</Button>
           {/* <Button color="inherit" href="/projects" className={mate.className + " text-md"}>Projects</Button> */}
           {/* <Button color="inherit" href="/writing" className={mate.className + " text-md"}>Writing</Button> */}
