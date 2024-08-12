@@ -74,7 +74,7 @@ export default class Home extends React.Component<any, any> {
               <h1 className="text-xl" style={{paddingBottom: "8px"}}>Red Teaming Large Language Models for Healthcare</h1>
               <p className="text-sm">Workshop at Machine Learning for Healthcare (MLHC), 2024</p>
               <p className="text-sm">August 15, 2024, 1:00PM &mdash; 5:00PM</p>
-              <p className="text-sm"><a href="https://maps.app.goo.gl/YYivAPWMNaWVZD9b7">27 King's College Cir, Toronto, Ontario</a></p>
+              <p className="text-sm"><a href="https://map.utoronto.ca/?id=1809#!m/494470?share">Room 1190, Bahen Centre for Information Technology, University of Toronto, Toronto, Ontario</a></p>
               <br></br>
               <Button variant="contained" color="primary" style={{backgroundColor: "secondary", color: "white", fontFamily: "latin"}} href="https://events.eventzilla.net/e/mlhc-preconference-workshop-2138630204">Register Here</Button>
             </Box>
@@ -92,7 +92,7 @@ export default class Home extends React.Component<any, any> {
                 <h1 className="text-xl" style={{paddingBottom: "8px"}}>Red Teaming Large Language Models for Healthcare</h1>
                 <p className="text-sm">Workshop at Machine Learning for Healthcare (MLHC), 2024</p>
                 <p className="text-sm">August 15, 2024, 1:00PM &mdash; 5:00PM</p>
-                <p className="text-sm"><a href="https://maps.app.goo.gl/YYivAPWMNaWVZD9b7">27 King's College Cir, Toronto, Ontario</a></p>
+                <p className="text-sm"><a href="https://map.utoronto.ca/?id=1809#!m/494470?share">Room 1190, Bahen Centre for Information Technology, University of Toronto, Toronto, Ontario</a></p>
                 <br></br>
                 <Button variant="contained" color="primary" style={{backgroundColor: "secondary", color: "white", fontFamily: "latin"}} href="https://events.eventzilla.net/e/mlhc-preconference-workshop-2138630204">Register Here</Button>
               </Box>

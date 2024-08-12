@@ -62,7 +62,7 @@ export default class Home extends React.Component<any, any> {
               <h1 className="text-xl" style={{paddingBottom: "8px"}}>Red Teaming Large Language Models for Healthcare</h1>
               <p className="text-sm">Workshop at Machine Learning for Healthcare (MLHC), 2024</p>
               <p className="text-sm">August 15, 2024, 1:00PM &mdash; 5:00PM</p>
-              <p className="text-sm"><a href="https://maps.app.goo.gl/YYivAPWMNaWVZD9b7">27 King's College Cir, Toronto, Ontario</a></p>
+              <p className="text-sm"><a href="https://map.utoronto.ca/?id=1809#!m/494470?share">Room 1190, Bahen Centre for Information Technology, University of Toronto, Toronto, Ontario</a></p>
               <br></br>
               <Button variant="contained" color="primary" style={{backgroundColor: "secondary", color: "white", fontFamily: "latin"}} href="https://events.eventzilla.net/e/mlhc-preconference-workshop-2138630204">Register Here</Button>
             </Box>
@@ -80,7 +80,7 @@ export default class Home extends React.Component<any, any> {
                 <h1 className="text-xl" style={{paddingBottom: "8px"}}>Red Teaming Large Language Models for Healthcare</h1>
                 <p className="text-sm">Workshop at Machine Learning for Healthcare (MLHC), 2024</p>
                 <p className="text-sm">August 15, 2024, 1:00PM &mdash; 5:00PM</p>
-                <p className="text-sm"><a href="https://maps.app.goo.gl/YYivAPWMNaWVZD9b7">27 King's College Cir, Toronto, Ontario</a></p>
+                <p className="text-sm"><a href="https://map.utoronto.ca/?id=1809#!m/494470?share">Room 1190, Bahen Centre for Information Technology, University of Toronto, Toronto, Ontario</a></p>
                 <br></br>
                 <Button variant="contained" color="primary" style={{backgroundColor: "secondary", color: "white", fontFamily: "latin"}} href="https://events.eventzilla.net/e/mlhc-preconference-workshop-2138630204">Register Here</Button>
               </Box>
@@ -93,8 +93,13 @@ export default class Home extends React.Component<any, any> {
           <br></br>
           <hr style={{width: "70%", margin: "auto"}}/>
           <br></br>
+          <h2 style={{paddingBottom: "8px"}} className="text-xl">Location</h2>
 
-          <h2 style={{paddingBottom: "8px"}} className="text-xl">Workshop Schedule</h2>
+          <p style={{paddingBottom: "6px"}}>We will begin by convening in Room 1190 of the Bahen Centre at the University of Toronto. The Bahen Centre is located at 40 St. George Street. An interactive map of the campus highlighting the Bahen Centre is available <a href="https://map.utoronto.ca/?id=1809#!m/494470?share">here</a>.</p>
+
+          <p>The red teaming portion of the workshop will comprise breakout sessions hosted in Rooms 2185 and 2195 of the Bahen Centre. After introductions and splitting into red teaming small groups, directions to these rooms will be provided.</p>
+
+          <h2 style={{paddingBottom: "8px", paddingTop: "8px"}} className="text-xl">Workshop Schedule</h2>
           <table>
             <tbody>
             <tr>
