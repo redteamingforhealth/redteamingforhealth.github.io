@@ -19,7 +19,7 @@ export default function ButtonAppBar() {
           <Button color="inherit" href="/" className={mate.className + " text-md"}>Home</Button>
           <Button color="inherit" href="/background" className={mate.className + " text-md"}>Background</Button>
           <Button color="inherit" href="/logistics" className={mate.className + " text-md"}>Logistics</Button>
-          {/* <Button color="inherit" href="/projects" className={mate.className + " text-md"}>Projects</Button> */}
+          <Button color="inherit" href="/instructions" className={mate.className + " text-md"}>Instructions</Button>
           {/* <Button color="inherit" href="/writing" className={mate.className + " text-md"}>Writing</Button> */}
           {/* <Button color="inherit" className={mate.className}>CV</Button> */}
         </Toolbar>
