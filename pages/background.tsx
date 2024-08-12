@@ -328,7 +328,7 @@ export default class Home extends React.Component<any, any> {
           <hr style={{width: "25%", margin: "auto", marginLeft: "0px"}}/>
           <br></br>
 
-          <p><sup>[1]</sup>It is a safe assumption that, unlike a standard red teaming exercise designed to circumvent model safeguards under the assumption of a malicious user (e.g., one who wishes to generate racist/sexist content), clinical users of LLMs desire to do right by their patient. Therefore, prompts in our workshop will reflect realistic clinical use cases as opposed to those from a malignant user.</p>
+          <p><sup>[1]</sup> It is a safe assumption that, unlike a standard red teaming exercise designed to circumvent model safeguards under the assumption of a malicious user (e.g., one who wishes to generate racist/sexist content), clinical users of LLMs desire to do right by their patient. Therefore, prompts in our workshop will reflect realistic clinical use cases as opposed to those from a malignant user.</p>
 
         </main>
       {/* Pass in whether we are on mobile to the footer */}
