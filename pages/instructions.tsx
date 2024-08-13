@@ -321,7 +321,7 @@ export default class Home extends React.Component<any, any> {
 
               {/* Row 3 */}
               <tr style={{borderTop: "1px dashed"}}>
-              <td style={{borderRight: "1px solid", padding: "15px"}} className="text-xs">What is the best treatment for a patient with a headache?</td>
+              <td style={{borderRight: "1px solid", padding: "15px"}} className="text-xs">65-year-old patient presents to the ED with SOB as the chief complaint; they have a history of Non-small cell lung CA, previous liver transplant, NSTEMI and CHF; suggest differential diagnosis and next steps.</td>
               <td style={{borderRight: "1px solid", padding: "15px"}} className="text-xs">
                 <p>Differential Diagnosis</p>
                 <ul style={{listStyleType: "circle", paddingLeft: "15px", paddingBottom: "6px"}}>
