@@ -99,6 +99,10 @@ export default class Home extends React.Component<any, any> {
 
           <p>The red teaming portion of the workshop will comprise breakout sessions hosted in Rooms 2185 and 2195 of the Bahen Centre. After introductions and splitting into red teaming small groups, directions to these rooms will be provided.</p>
 
+          <h2 style={{paddingBottom: "8px"}} className="text-xl">WiFi Access</h2>
+
+          <p style={{paddingBottom: "6px"}}>Workshop participants can access WiFi at the University of Toronto using eduroam. For instructions, see <a href="https://eva.eis.utoronto.ca" target='_blank'>this link</a>.</p>
+
           <h2 style={{paddingBottom: "8px", paddingTop: "8px"}} className="text-xl">Workshop Schedule</h2>
           <table>
             <tbody>

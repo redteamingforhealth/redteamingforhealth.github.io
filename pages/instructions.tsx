@@ -11,6 +11,7 @@ import { faGithubSquare, faLinkedin, faXTwitter } from "@fortawesome/free-brands
 import Tooltip from '@mui/material/Tooltip';
 
 import Box from '@mui/material/Box';
+import Link from '@mui/material/Link'
 import { Grid } from '@mui/material';
 
 const mate = Mate({ subsets: ['latin'], weight: ["400"] });
@@ -95,10 +96,139 @@ export default class Home extends React.Component<any, any> {
           <br></br>
           <h2 style={{paddingBottom: "8px"}} className="text-xl">WiFi Access</h2>
 
-          <p style={{paddingBottom: "6px"}}>Workshop participants can access WiFi at the University of Toronto using eduroam. For instructions, see <a href="https://eva.eis.utoronto.ca">this link</a>.</p>
+          <p style={{paddingBottom: "6px"}}>Workshop participants can access WiFi at the University of Toronto using eduroam. For instructions, see <a href="https://eva.eis.utoronto.ca" target='_blank'>this link</a>.</p>
 
+          <h2 style={{paddingBottom: "8px"}} className="text-xl">Useful Links</h2>
+
+          <h3 style={{paddingBottom: "8px"}} className="text-lg">Submission Forms</h3>
+
+          {/* Make one box on the left, one box on the right, with form links */}
+          <Box display="flex" justifyContent="center" alignItems="center">
+            {/* Make the entire area of the box a hyperlink */}
+            <a href="https://google.com">
+              <Box
+                sx={{
+                  width: 0.95,
+                  padding: 2,
+                  backgroundColor: '#FAFAFA',
+                  borderRadius: 2,
+                  border: 1,
+                  borderColor: 'black',
+                  display: 'inline-block',
+                  cursor: 'pointer',
+                  textDecoration: 'none',
+                  // Make text black
+                  color: 'black',
+                  transition: 'background-color 0.3s ease', // Smooth transition
+                  '&:hover': {
+                    backgroundColor: '#E0E0E0', // Darken on hover
+                  },
+                }}
+              >             
+                <h3 style={{paddingBottom: "8px", textAlign: "center"}} className="text-md">Group Registration Form</h3>
+                <p style={{paddingBottom: "6px"}} className="text-sm">Submit this form at the <b>start</b> of the exercise, once you are seated at your table with your team.</p>
+              </Box>
+            </a>
+            <a href="https://google.com">
+              <Box
+                sx={{
+                  width: 0.95,
+                  padding: 2,
+                  backgroundColor: '#FAFAFA',
+                  borderRadius: 2,
+                  border: 1,
+                  borderColor: 'black',
+                  display: 'inline-block',
+                  cursor: 'pointer',
+                  textDecoration: 'none',
+                  // Make text black
+                  color: 'black',
+                  transition: 'background-color 0.3s ease', // Smooth transition
+                  '&:hover': {
+                    backgroundColor: '#E0E0E0', // Darken on hover
+                  },
+                }}
+              >             
+                <h3 style={{paddingBottom: "8px", textAlign: "center"}} className="text-md">Vulnerability Reporting Form</h3>
+                <p style={{paddingBottom: "6px"}} className="text-sm">Submit this form with your group <b>for each vulnerability you discover</b>.</p>
+              </Box>
+            </a>
+          </Box>
+
+          <h3 style={{paddingBottom: "8px", paddingTop: "8px"}} className="text-lg">Language Models</h3>
+
+          <Box display="flex" justifyContent="space-between" alignItems="center">
+            <a href="https://google.com" style={{ textDecoration: 'none', width: '32%' }}>
+              <Box
+                sx={{
+                  padding: 2,
+                  backgroundColor: '#FAFAFA',
+                  borderRadius: 2,
+                  border: 1,
+                  borderColor: 'black',
+                  cursor: 'pointer',
+                  color: 'black',
+                  transition: 'background-color 0.3s ease',
+                  '&:hover': {
+                    backgroundColor: '#E0E0E0',
+                  },
+                }}
+              >
+                <h3 style={{ paddingBottom: '8px', textAlign: 'center' }} className="text-md">GPT-4o</h3>
+                <p style={{ paddingBottom: '6px', textAlign: 'center' }} className="text-xs">(OpenAI)</p>
+              </Box>
+            </a>
+
+            <a href="https://google.com" style={{ textDecoration: 'none', width: '32%' }}>
+              <Box
+                sx={{
+                  padding: 2,
+                  backgroundColor: '#FAFAFA',
+                  borderRadius: 2,
+                  border: 1,
+                  borderColor: 'black',
+                  cursor: 'pointer',
+                  color: 'black',
+                  transition: 'background-color 0.3s ease',
+                  '&:hover': {
+                    backgroundColor: '#E0E0E0',
+                  },
+                }}
+              >
+                <h3 style={{ paddingBottom: '8px', textAlign: 'center' }} className="text-md">Claude</h3>
+                <p style={{ paddingBottom: '6px', textAlign: 'center'  }} className="text-xs">(Anthropic)</p>
+              </Box>
+            </a>
+
+            <a href="https://google.com" style={{ textDecoration: 'none', width: '32%' }}>
+              <Box
+                sx={{
+                  padding: 2,
+                  backgroundColor: '#FAFAFA',
+                  borderRadius: 2,
+                  border: 1,
+                  borderColor: 'black',
+                  cursor: 'pointer',
+                  color: 'black',
+                  transition: 'background-color 0.3s ease',
+                  '&:hover': {
+                    backgroundColor: '#E0E0E0',
+                  },
+                }}
+              >
+                <h3 style={{ paddingBottom: '8px', textAlign: 'center' }} className="text-md">Open-Source Models</h3>
+                <p style={{ paddingBottom: '6px', textAlign: 'center'  }} className="text-xs">(Meta; Hosted by Vector Institute)</p>
+              </Box>
+            </a>
+          </Box>
+
+
+
+          {/* Make one box on the left, one box on the right, with form links */}
 
           <br></br>
+
+          
 
         </main>
       {/* Pass in whether we are on mobile to the footer */}
