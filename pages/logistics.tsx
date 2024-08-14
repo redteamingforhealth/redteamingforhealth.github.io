@@ -101,7 +101,11 @@ export default class Home extends React.Component<any, any> {
 
           <h2 style={{paddingBottom: "8px"}} className="text-xl">WiFi Access</h2>
 
-          <p style={{paddingBottom: "6px"}}>Workshop participants can access WiFi at the University of Toronto using eduroam. For instructions, see <a href="https://eva.eis.utoronto.ca" target='_blank'>this link</a>.</p>
+          <p style={{paddingBottom: "6px"}}>Workshop participants can access WiFi at the University of Toronto using the eduroam WiFi network. The following credentials can be used:</p>
+          <ul style={{paddingLeft: "15px"}}>
+            <li>Username: nbgv@eva.eduroam.ca</li>
+            <li>Password: nuakm</li>
+          </ul>
 
           <h2 style={{paddingBottom: "8px", paddingTop: "8px"}} className="text-xl">Workshop Schedule</h2>
           <table>
