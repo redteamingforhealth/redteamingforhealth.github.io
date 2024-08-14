@@ -97,6 +97,60 @@ export default class Home extends React.Component<any, any> {
 
           <h2 style={{paddingBottom: "8px"}} className="text-xl">Useful Links</h2>
 
+          <h3 style={{paddingBottom: "8px"}} className="text-lg">Getting Started</h3>
+
+          {/* Make one box on the left, one box on the right, with form links */}
+          <Box display="flex" justifyContent="space-between" alignItems="center">
+            {/* Make the entire area of the box a hyperlink */}
+            <a href="https://docs.google.com/document/d/1CCzk6qlUpLcwDDqbNbAX30a-uFsEO3ouHIbHjhC4xi0/edit?usp=sharing" style={{ textDecoration: 'none', width: '48%' }}>
+              <Box
+                sx={{
+                  padding: 2,
+                  backgroundColor: '#FAFAFA',
+                  borderRadius: 2,
+                  border: 1,
+                  borderColor: 'black',
+                  display: 'inline-block',
+                  cursor: 'pointer',
+                  textDecoration: 'none',
+                  // Make text black
+                  color: 'black',
+                  transition: 'background-color 0.3s ease', // Smooth transition
+                  '&:hover': {
+                    backgroundColor: '#E0E0E0', // Darken on hover
+                  },
+                }}
+              >
+                <h3 style={{paddingBottom: "8px", textAlign: "center"}} className="text-md">Getting Started Guide</h3>
+                <p style={{paddingBottom: "6px"}} className="text-sm">Follow the instructions to set up your accounts. </p>
+              </Box>
+            </a>
+            <Box></Box>
+            <a href="https://docs.google.com/document/d/1ulbSEpIeY7jvGgETM9YF9pip29jWvjabsKQnhKZYZrk/edit?usp=sharing" style={{ textDecoration: 'none', width: '48%' }}>
+              <Box
+                sx={{
+                  padding: 2,
+                  backgroundColor: '#FAFAFA',
+                  borderRadius: 2,
+                  border: 1,
+                  borderColor: 'black',
+                  display: 'inline-block',
+                  cursor: 'pointer',
+                  textDecoration: 'none',
+                  // Make text black
+                  color: 'black',
+                  transition: 'background-color 0.3s ease', // Smooth transition
+                  '&:hover': {
+                    backgroundColor: '#E0E0E0', // Darken on hover
+                  },
+                }}
+              >
+                <h3 style={{paddingBottom: "8px", textAlign: "center"}} className="text-md">LLMs: Sample Vulnerabilities in Healthcare</h3>
+                <p style={{paddingBottom: "6px"}} className="text-sm">A list of potentially harmful prompts in clinical applications.</p>
+              </Box>
+            </a>
+          </Box>
+
           <h3 style={{paddingBottom: "8px"}} className="text-lg">Submission Forms</h3>
 
           {/* Make one box on the left, one box on the right, with form links */}
