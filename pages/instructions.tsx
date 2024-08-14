@@ -93,7 +93,7 @@ export default class Home extends React.Component<any, any> {
           {/* Horizontal line goes 70% of the way across and is centered*/}
           <br></br>
           <hr style={{width: "70%", margin: "auto"}}/>
-          <br></br>
+          <br></br> 
 
           <h2 style={{paddingBottom: "8px"}} className="text-xl">Useful Links</h2>
 
