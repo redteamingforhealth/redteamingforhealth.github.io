@@ -240,11 +240,13 @@ export default class Home extends React.Component<any, any> {
                   The models should be able to do this remarkably well; this highlights that, by learning complex probability distributions over the structure of natural language in their training data, they can generate text that is coherent and stylistically consistent.
                 </li>
                 <li style={{listStyleType: 'disc'}}>
-                  <p style={{paddingBottom: '6px'}}><b>Ask the model what happened in the news</b> yesterday. E.g.,</p>
+                  <p style={{paddingBottom: '6px'}}><b>Ask the model what is happening in Bahen 1190 today</b>. E.g.,</p>
                   <code>
-                    <p style={{paddingBottom: '6px'}}>What happened in the news yesterday?</p>
+                    <p style={{paddingBottom: '6px'}}>What is happening in Bahen 1190 today?</p>
                   </code>
-                  The models should not be able to tell you this; this is because events from yesterday's news took place after the training data for these models was collected. This highlights that the models are not omniscient and can only generate text based on the patterns they have learned from their training data.
+                  <p style={{paddingBottom: '6px'}}>The models should not be able to tell you this; for models without Internet access, this is because the information about our workshop being in Bahen 1190 was published on the Internet only after the training data for the models was collected. For those models with real-time Internet access (Gemini / GPT-4o if Internet is enabled), this is because the information about our workshop being in Bahen 1190 is located subtly on our website, and a quick Internet search for "Bahen 1190" (or a similar such query) will not surface a relevant response drawn from our website.</p>
+
+                  <p style={{paddingBottom: '6px'}}>This highlights that the models are not omniscient and can only generate text based on the patterns they have learned from their training data (or, in the case of Gemini/GPT-4o w/ Internet enabled, data that is immediately retrievable from a web search).</p>
                 </li>
                 <li style={{listStyleType: 'disc'}}>
                   <p style={{paddingBottom: '6px'}}><b>Ask the model to generate a list</b> of the top 10 causes of death in the United States in 2022. E.g.,</p>
@@ -265,6 +267,8 @@ export default class Home extends React.Component<any, any> {
             </li>
             <li className="text-sm" style={{paddingBottom: '6px'}}>Ask one of the clinicians in your group to describe their clinical workflow. What types of [knowledge retrieval / text summarization / text generation / decision-making / image interpretation] tasks do they encounter, and how might access to one of these language models help them in their work? Critically consider potential use cases, as a key goal of this exercise is to ground the use of these models in realistic clinical scenarios.</li>
             <li className="text-sm" style={{paddingBottom: '6px'}}><p style={{paddingBottom: '6px'}}>At this point, make sure your group is set up with more than one language model (different group members are welcome to work with different ones) -- a vulnerability that affects one model may not affect all of them. If you encounter difficulties, we've written a <a href="https://docs.google.com/document/d/1CCzk6qlUpLcwDDqbNbAX30a-uFsEO3ouHIbHjhC4xi0/edit?usp=sharing" target="_blank" >detailed user guide for each of the platforms</a>.</p>
+
+            <p style={{paddingBottom: '6px'}}>ChatGPT (GPT-4o) allows Internet access to be toggled on or off, and the model may behave differently depending on whether it has Internet access. The above user guide provides instructions on how to toggle Internet access on or off when working with ChatGPT.</p>
 
             <p style={{paddingBottom: '6px'}}><i>Two small notes to keep in mind when working with these models:</i></p>
             <ul style={{paddingLeft: '15px', paddingBottom: '6px'}}>
