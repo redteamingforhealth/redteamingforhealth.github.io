@@ -102,123 +102,248 @@ export default class Home extends React.Component<any, any> {
           <h3 style={{paddingBottom: "8px"}} className="text-lg">Submission Forms</h3>
 
           {/* Make one box on the left, one box on the right, with form links */}
-          <Box display="flex" justifyContent="space-between" alignItems="center">
-            {/* Make the entire area of the box a hyperlink */}
-            <a href="https://forms.gle/gUYVpopjicT9zFzw8" target="_blank" style={{ textDecoration: 'none', width: '48%' }}>
-              <Box
-                sx={{
-                  padding: 2,
-                  backgroundColor: '#FAFAFA',
-                  borderRadius: 2,
-                  border: 1,
-                  borderColor: 'black',
-                  display: 'inline-block',
-                  cursor: 'pointer',
-                  textDecoration: 'none',
-                  // Make text black
-                  color: 'black',
-                  transition: 'background-color 0.3s ease', // Smooth transition
-                  '&:hover': {
-                    backgroundColor: '#E0E0E0', // Darken on hover
-                  },
-                }}
-              >
-                <h3 style={{paddingBottom: "8px", textAlign: "center"}} className="text-md">Individual Onboarding Form</h3>
-                <p style={{paddingBottom: "6px"}} className="text-sm">Submit this form one time, individually, at the <b>start</b> of the exercise once seated at your table with your team.</p>
-              </Box>
-            </a>
-            <Box></Box>
-            <a href="https://forms.gle/zP78LFX4cdZyF2cG7" target="_blank" style={{ textDecoration: 'none', width: '48%' }}>
-              <Box
-                sx={{
-                  padding: 2,
-                  backgroundColor: '#FAFAFA',
-                  borderRadius: 2,
-                  border: 1,
-                  borderColor: 'black',
-                  display: 'inline-block',
-                  cursor: 'pointer',
-                  textDecoration: 'none',
-                  // Make text black
-                  color: 'black',
-                  transition: 'background-color 0.3s ease', // Smooth transition
-                  '&:hover': {
-                    backgroundColor: '#E0E0E0', // Darken on hover
-                  },
-                }}
-              >
-                <h3 style={{paddingBottom: "8px", textAlign: "center"}} className="text-md">Vulnerability Reporting Form</h3>
-                <p style={{paddingBottom: "6px"}} className="text-sm">Submit this form as a group <b>for each model, for each vulnerability you discover</b>.</p>
-              </Box>
-            </a>
-          </Box>
+          <div className="block dark:hidden">
+            <Box display="flex" justifyContent="space-between" alignItems="center">
+              {/* Make the entire area of the box a hyperlink */}
+              <a href="https://forms.gle/gUYVpopjicT9zFzw8" target="_blank" style={{ textDecoration: 'none', width: '48%' }}>
+                <Box
+                  sx={{
+                    padding: 2,
+                    backgroundColor: '#FAFAFA',
+                    borderRadius: 2,
+                    border: 1,
+                    borderColor: 'black',
+                    display: 'inline-block',
+                    cursor: 'pointer',
+                    textDecoration: 'none',
+                    // Make text black
+                    color: 'black',
+                    transition: 'background-color 0.3s ease', // Smooth transition
+                    '&:hover': {
+                      backgroundColor: '#E0E0E0', // Darken on hover
+                    },
+                  }}
+                >
+                  <h3 style={{paddingBottom: "8px", textAlign: "center"}} className="text-md">Individual Onboarding Form</h3>
+                  <p style={{paddingBottom: "6px"}} className="text-sm">Submit this form one time, individually, at the <b>start</b> of the exercise once seated at your table with your team.</p>
+                </Box>
+              </a>
+              <Box></Box>
+              <a href="https://forms.gle/zP78LFX4cdZyF2cG7" target="_blank" style={{ textDecoration: 'none', width: '48%' }}>
+                <Box
+                  sx={{
+                    padding: 2,
+                    backgroundColor: '#FAFAFA',
+                    borderRadius: 2,
+                    border: 1,
+                    borderColor: 'black',
+                    display: 'inline-block',
+                    cursor: 'pointer',
+                    textDecoration: 'none',
+                    // Make text black
+                    color: 'black',
+                    transition: 'background-color 0.3s ease', // Smooth transition
+                    '&:hover': {
+                      backgroundColor: '#E0E0E0', // Darken on hover
+                    },
+                  }}
+                >
+                  <h3 style={{paddingBottom: "8px", textAlign: "center"}} className="text-md">Vulnerability Reporting Form</h3>
+                  <p style={{paddingBottom: "6px"}} className="text-sm">Submit this form as a group <b>for each model, for each vulnerability you discover</b>.</p>
+                </Box>
+              </a>
+            </Box>
+          </div>
+
+          <div className="hidden dark:block">
+            <Box display="flex" justifyContent="space-between" alignItems="center">
+              {/* Make the entire area of the box a hyperlink */}
+              <a href="https://forms.gle/gUYVpopjicT9zFzw8" target="_blank" style={{ textDecoration: 'none', width: '48%' }}>
+                <Box
+                  sx={{
+                    padding: 2,
+                    backgroundColor: '#212b45',
+                    borderRadius: 2,
+                    border: 1,
+                    borderColor: 'white',
+                    display: 'inline-block',
+                    cursor: 'pointer',
+                    textDecoration: 'none',
+                    // Make text black
+                    color: 'white',
+                    transition: 'background-color 0.3s ease', // Smooth transition
+                    '&:hover': {
+                      backgroundColor: '#283554', // Darken on hover
+                    },
+                  }}
+                >
+                  <h3 style={{paddingBottom: "8px", textAlign: "center"}} className="text-md">Individual Onboarding Form</h3>
+                  <p style={{paddingBottom: "6px"}} className="text-sm">Submit this form one time, individually, at the <b>start</b> of the exercise once seated at your table with your team.</p>
+                </Box>
+              </a>
+              <Box></Box>
+              <a href="https://forms.gle/zP78LFX4cdZyF2cG7" target="_blank" style={{ textDecoration: 'none', width: '48%' }}>
+                <Box
+                  sx={{
+                    padding: 2,
+                    backgroundColor: '#212b45',
+                    borderRadius: 2,
+                    border: 1,
+                    borderColor: 'white',
+                    display: 'inline-block',
+                    cursor: 'pointer',
+                    textDecoration: 'none',
+                    // Make text black
+                    color: 'white',
+                    transition: 'background-color 0.3s ease', // Smooth transition
+                    '&:hover': {
+                      backgroundColor: '#283554', // Darken on hover
+                    },
+                  }}
+                >
+                  <h3 style={{paddingBottom: "8px", textAlign: "center"}} className="text-md">Vulnerability Reporting Form</h3>
+                  <p style={{paddingBottom: "6px"}} className="text-sm">Submit this form as a group <b>for each model, for each vulnerability you discover</b>.</p>
+                </Box>
+              </a>
+            </Box>
+          </div>
 
           <h3 style={{paddingBottom: "8px", paddingTop: "8px"}} className="text-lg">Language Models</h3>
 
-          <Box display="flex" justifyContent="space-between" alignItems="center">
-            <a href="https://chatgpt.com" target="_blank" style={{ textDecoration: 'none', width: '32%' }}>
-              <Box
-                sx={{
-                  padding: 2,
-                  backgroundColor: '#FAFAFA',
-                  borderRadius: 2,
-                  border: 1,
-                  borderColor: 'black',
-                  cursor: 'pointer',
-                  color: 'black',
-                  transition: 'background-color 0.3s ease',
-                  '&:hover': {
-                    backgroundColor: '#E0E0E0',
-                  },
-                }}
-              >
-                <h3 style={{ paddingBottom: '8px', textAlign: 'center' }} className="text-md">GPT-4o</h3>
-                <p style={{ paddingBottom: '6px', textAlign: 'center' }} className="text-xs">(OpenAI)</p>
-              </Box>
-            </a>
 
-            <a href="https://gemini.google.com/" target="_blank" style={{ textDecoration: 'none', width: '32%' }}>
-              <Box
-                sx={{
-                  padding: 2,
-                  backgroundColor: '#FAFAFA',
-                  borderRadius: 2,
-                  border: 1,
-                  borderColor: 'black',
-                  cursor: 'pointer',
-                  color: 'black',
-                  transition: 'background-color 0.3s ease',
-                  '&:hover': {
-                    backgroundColor: '#E0E0E0',
-                  },
-                }}
-              >
-                <h3 style={{ paddingBottom: '8px', textAlign: 'center' }} className="text-md">Gemini 1.5 Flash</h3>
-                <p style={{ paddingBottom: '6px', textAlign: 'center'  }} className="text-xs">(Google)</p>
-              </Box>
-            </a>
+          <div className="block dark:hidden">
+            <Box display="flex" justifyContent="space-between" alignItems="center">
+              <a href="https://chatgpt.com" target="_blank" style={{ textDecoration: 'none', width: '32%' }}>
+                <Box
+                  sx={{
+                    padding: 2,
+                    backgroundColor: '#FAFAFA',
+                    borderRadius: 2,
+                    border: 1,
+                    borderColor: 'black',
+                    cursor: 'pointer',
+                    color: 'black',
+                    transition: 'background-color 0.3s ease',
+                    '&:hover': {
+                      backgroundColor: '#E0E0E0',
+                    },
+                  }}
+                >
+                  <h3 style={{ paddingBottom: '8px', textAlign: 'center' }} className="text-md">GPT-4o</h3>
+                  <p style={{ paddingBottom: '6px', textAlign: 'center' }} className="text-xs">(OpenAI)</p>
+                </Box>
+              </a>
 
-            <a href="https://mlhc.vectorinstitute.ai/" target="_blank" style={{ textDecoration: 'none', width: '32%' }}>
-              <Box
-                sx={{
-                  padding: 2,
-                  backgroundColor: '#FAFAFA',
-                  borderRadius: 2,
-                  border: 1,
-                  borderColor: 'black',
-                  cursor: 'pointer',
-                  color: 'black',
-                  transition: 'background-color 0.3s ease',
-                  '&:hover': {
-                    backgroundColor: '#E0E0E0',
-                  },
-                }}
-              >
-                <h3 style={{ paddingBottom: '8px', textAlign: 'center' }} className="text-md">Open-Source Models</h3>
-                <p style={{ paddingBottom: '6px', textAlign: 'center'  }} className="text-xs">(Meta; Mistral AI; Hosted by Vector Institute)</p>
-              </Box>
-            </a>
-          </Box>
+              <a href="https://gemini.google.com/" target="_blank" style={{ textDecoration: 'none', width: '32%' }}>
+                <Box
+                  sx={{
+                    padding: 2,
+                    backgroundColor: '#FAFAFA',
+                    borderRadius: 2,
+                    border: 1,
+                    borderColor: 'black',
+                    cursor: 'pointer',
+                    color: 'black',
+                    transition: 'background-color 0.3s ease',
+                    '&:hover': {
+                      backgroundColor: '#E0E0E0',
+                    },
+                  }}
+                >
+                  <h3 style={{ paddingBottom: '8px', textAlign: 'center' }} className="text-md">Gemini 1.5 Flash</h3>
+                  <p style={{ paddingBottom: '6px', textAlign: 'center'  }} className="text-xs">(Google)</p>
+                </Box>
+              </a>
+
+              <a href="https://mlhc.vectorinstitute.ai/" target="_blank" style={{ textDecoration: 'none', width: '32%' }}>
+                <Box
+                  sx={{
+                    padding: 2,
+                    backgroundColor: '#FAFAFA',
+                    borderRadius: 2,
+                    border: 1,
+                    borderColor: 'black',
+                    cursor: 'pointer',
+                    color: 'black',
+                    transition: 'background-color 0.3s ease',
+                    '&:hover': {
+                      backgroundColor: '#E0E0E0',
+                    },
+                  }}
+                >
+                  <h3 style={{ paddingBottom: '8px', textAlign: 'center' }} className="text-md">Open-Source Models</h3>
+                  <p style={{ paddingBottom: '6px', textAlign: 'center'  }} className="text-xs">(Meta; Mistral AI; Hosted by Vector Institute)</p>
+                </Box>
+              </a>
+            </Box>
+          </div>
+
+          <div className="hidden dark:block">
+            <Box display="flex" justifyContent="space-between" alignItems="center">
+              <a href="https://chatgpt.com" target="_blank" style={{ textDecoration: 'none', width: '32%' }}>
+                <Box
+                  sx={{
+                    padding: 2,
+                    backgroundColor: '#212b45',
+                    borderRadius: 2,
+                    border: 1,
+                    borderColor: 'white',
+                    cursor: 'pointer',
+                    color: 'white',
+                    transition: 'background-color 0.3s ease',
+                    '&:hover': {
+                      backgroundColor: '#283554',
+                    },
+                  }}
+                >
+                  <h3 style={{ paddingBottom: '8px', textAlign: 'center' }} className="text-md">GPT-4o</h3>
+                  <p style={{ paddingBottom: '6px', textAlign: 'center' }} className="text-xs">(OpenAI)</p>
+                </Box>
+              </a>
+
+              <a href="https://gemini.google.com/" target="_blank" style={{ textDecoration: 'none', width: '32%' }}>
+                <Box
+                  sx={{
+                    padding: 2,
+                    backgroundColor: '#212b45',
+                    borderRadius: 2,
+                    border: 1,
+                    borderColor: 'white',
+                    cursor: 'pointer',
+                    color: 'white',
+                    transition: 'background-color 0.3s ease',
+                    '&:hover': {
+                      backgroundColor: '#283554',
+                    },
+                  }}
+                >
+                  <h3 style={{ paddingBottom: '8px', textAlign: 'center' }} className="text-md">Gemini 1.5 Flash</h3>
+                  <p style={{ paddingBottom: '6px', textAlign: 'center'  }} className="text-xs">(Google)</p>
+                </Box>
+              </a>
+
+              <a href="https://mlhc.vectorinstitute.ai/" target="_blank" style={{ textDecoration: 'none', width: '32%' }}>
+                <Box
+                  sx={{
+                    padding: 2,
+                    backgroundColor: '#212b45',
+                    borderRadius: 2,
+                    border: 1,
+                    borderColor: 'white',
+                    cursor: 'pointer',
+                    color: 'white',
+                    transition: 'background-color 0.3s ease',
+                    '&:hover': {
+                      backgroundColor: '#283554',
+                    },
+                  }}
+                >
+                  <h3 style={{ paddingBottom: '8px', textAlign: 'center' }} className="text-md">Open-Source Models</h3>
+                  <p style={{ paddingBottom: '6px', textAlign: 'center'  }} className="text-xs">(Meta; Mistral AI; Hosted by Vector Institute)</p>
+                </Box>
+              </a>
+            </Box>
+          </div>
 
           <h2 style={{paddingBottom: "8px", paddingTop: "8px"}} className="text-xl">Workshop Instructions</h2>
 
@@ -283,27 +408,55 @@ export default class Home extends React.Component<any, any> {
             <div style={{paddingTop: '6px', paddingBottom: '6px'}}>The table below contains some example prompts, responses, and explanations of harm to guide your thinking. As you can see from the below examples, some of the explanations of harm may be subtle -- keep a careful eye out for whether the details of the responses align with what would be clinically useful. An even more comprehensive list is provided below.</div>
             <br></br>
             {/* CENTER the contents of this box */}
-            <Box className="center" display="flex" justifyContent="center" alignItems="center">
-            <a href="https://docs.google.com/document/d/1ulbSEpIeY7jvGgETM9YF9pip29jWvjabsKQnhKZYZrk/edit#heading=h.ro465m9tkmd1" target="_blank" style={{ textDecoration: 'none', width: '45%' }}>
-              <Box
-                sx={{
-                  padding: 1,
-                  backgroundColor: '#FAFAFA',
-                  borderRadius: 2,
-                  border: 1,
-                  borderColor: 'black',
-                  cursor: 'pointer',
-                  color: 'black',
-                  transition: 'background-color 0.3s ease',
-                  '&:hover': {
-                    backgroundColor: '#E0E0E0',
-                  },
-                }}
-              >
-                <h3 style={{textAlign: 'center' }} className="text-md">Preliminary List and Taxonomy of Identified Vulnerabilities</h3>
+            <div className="block dark:hidden">
+              <Box className="center" display="flex" justifyContent="center" alignItems="center">
+              <a href="https://docs.google.com/document/d/1ulbSEpIeY7jvGgETM9YF9pip29jWvjabsKQnhKZYZrk/edit#heading=h.ro465m9tkmd1" target="_blank" style={{ textDecoration: 'none', width: '45%' }}>
+                <Box
+                  sx={{
+                    padding: 1,
+                    backgroundColor: '#FAFAFA',
+                    borderRadius: 2,
+                    border: 1,
+                    borderColor: 'black',
+                    cursor: 'pointer',
+                    color: 'black',
+                    transition: 'background-color 0.3s ease',
+                    '&:hover': {
+                      backgroundColor: '#E0E0E0',
+                    },
+                  }}
+                >
+                  <h3 style={{textAlign: 'center' }} className="text-md">Preliminary List and Taxonomy of Identified Vulnerabilities</h3>
+                </Box>
+              </a>
               </Box>
-            </a>
-            </Box>
+            </div>
+
+            <div className="hidden dark:block">
+              <Box className="center" display="flex" justifyContent="center" alignItems="center">
+                <a href="https://docs.google.com/document/d/1ulbSEpIeY7jvGgETM9YF9pip29jWvjabsKQnhKZYZrk/edit#heading=h.ro465m9tkmd1" target="_blank" style={{ textDecoration: 'none', width: '45%' }}>
+                  <Box
+                    sx={{
+                      padding: 1,
+                      backgroundColor: '#212b45',
+                      borderRadius: 2,
+                      border: 1,
+                      borderColor: 'white',
+                      cursor: 'pointer',
+                      color: 'white',
+                      transition: 'background-color 0.3s ease',
+                      '&:hover': {
+                        backgroundColor: '#283554',
+                      },
+                    }}
+                  >
+                    <h3 style={{textAlign: 'center' }} className="text-md">Preliminary List and Taxonomy of Identified Vulnerabilities</h3>
+                  </Box>
+                </a>
+                </Box>
+
+            </div>
+            
             <br></br>
 
             <div style={{paddingBottom: '6px'}}>For each vulnerability (harmful example) you discover, submit a copy of the <a href="https://forms.gle/zP78LFX4cdZyF2cG7" target="_blank" >Vulnerability Reporting Form</a> on behalf of your group.</div>
