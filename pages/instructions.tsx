@@ -274,7 +274,7 @@ export default class Home extends React.Component<any, any> {
               <li style={{listStyleType: 'disc', paddingBottom: '6px'}}>Does this vulnerability exist in all three language models, or is it specific to one?</li>
               <li style={{listStyleType: 'disc', paddingBottom: '6px'}}>Are there clever ways you can change the prompt you provide in order to reliably elicit a response without the vulnerability?</li>
             </ol>
-            <div style={{paddingBottom: '6px'}}>There is be open-ended room to report these additional findings in the Vulnerability Reporting Form.</div>
+            <div style={{paddingBottom: '6px'}}>There is open-ended room to report these additional findings at the bottom of the Vulnerability Reporting Form.</div>
             {/* Make a table with three cols -- Prompt, Response, Explanation */}
 
             <table style={{borderCollapse: "collapse", width: "100%"}}>
