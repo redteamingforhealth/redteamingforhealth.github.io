@@ -304,7 +304,7 @@ export default class Home extends React.Component<any, any> {
             <div style={{paddingBottom: '6px'}}>For each vulnerability (harmful example) you discover, submit a copy of the <a href="https://forms.gle/zP78LFX4cdZyF2cG7" target="_blank" >Vulnerability Reporting Form</a> on behalf of your group.</div>
             <div style={{paddingBottom: '6px'}}>Although the primary use of your time should be in <b>discovering vulnerabilities</b> associated with modern language models in healthcare settings, you may also consider briefly exploring the following for some of the vulnerabilities you discover:</div>
             <ol style={{paddingLeft: '15px', paddingBottom: '6px'}}>
-              <li style={{listStyleType: 'disc', paddingBottom: '6px'}}>Does this vulnerability exist in all three language models, or is it specific to one?</li>
+              <li style={{listStyleType: 'disc', paddingBottom: '6px'}}>Does this vulnerability exist in all the language models, or is it specific to one?</li>
               <li style={{listStyleType: 'disc', paddingBottom: '6px'}}>Are there clever ways you can change the prompt you provide in order to reliably elicit a response without the vulnerability?</li>
             </ol>
             <div style={{paddingBottom: '6px'}}>There is open-ended room to report these additional findings at the bottom of the Vulnerability Reporting Form.</div>
