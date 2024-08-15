@@ -229,7 +229,8 @@ export default class Home extends React.Component<any, any> {
             <div style={{paddingTop: '6px'}}>This form asks for a group / team / table number; this should be clearly written on the piece of paper on your tables.</div>
             </li>
             <li className="text-sm" style={{paddingBottom: '6px'}}>In your teams, sign in to each of the three language model platforms (GPT-4o, Gemini, Open-Source) using the credentials written on the pieces of paper on your tables.</li>
-            <li className="text-sm" style={{paddingBottom: '6px'}}>In your teams, take 10-15 minutes to get acquainted with one or more of the language models (we recommend GPT-4o for this warmup). Here are a few suggestions for exercises to try:
+            <li className="text-sm" style={{paddingBottom: '6px'}}>
+              <p style={{paddingBottom: '6px'}}>In your teams, take 10-15 minutes to get acquainted with one or more of the language models (we recommend GPT-4o for this warmup). Here are a few suggestions for exercises to try:</p>
               <ul style={{paddingLeft: '15px'}}>
                 <li style={{listStyleType: 'disc', paddingBottom: '6px'}}>
                   <p style={{paddingBottom: '6px'}}><b>Ask the model to write you a poem</b> about machine learning in healthcare, in a particular style or tone. E.g.,</p>
@@ -266,14 +267,14 @@ export default class Home extends React.Component<any, any> {
               </ul>
             </li>
             <li className="text-sm" style={{paddingBottom: '6px'}}>Ask one of the clinicians in your group to describe their clinical workflow. What types of [knowledge retrieval / text summarization / text generation / decision-making / image interpretation] tasks do they encounter, and how might access to one of these language models help them in their work? Critically consider potential use cases, as a key goal of this exercise is to ground the use of these models in realistic clinical scenarios.</li>
-            <li className="text-sm" style={{paddingBottom: '6px'}}><p style={{paddingBottom: '6px'}}>At this point, make sure your group is set up with more than one language model (different group members are welcome to work with different ones) -- a vulnerability that affects one model may not affect all of them. If you encounter difficulties, we've written a <a href="https://docs.google.com/document/d/1CCzk6qlUpLcwDDqbNbAX30a-uFsEO3ouHIbHjhC4xi0/edit?usp=sharing" target="_blank" >detailed user guide for each of the platforms</a>.</p>
+            <li className="text-sm"><p style={{paddingBottom: '6px'}}>At this point, make sure your group is set up with more than one language model (different group members are welcome to work with different ones) -- a vulnerability that affects one model may not affect all of them. If you encounter difficulties, we've written a <a href="https://docs.google.com/document/d/1CCzk6qlUpLcwDDqbNbAX30a-uFsEO3ouHIbHjhC4xi0/edit?usp=sharing" target="_blank" >detailed user guide for each of the platforms</a>.</p>
 
             <p style={{paddingBottom: '6px'}}>ChatGPT (GPT-4o) allows Internet access to be toggled on or off, and the model may behave differently depending on whether it has Internet access. The above user guide provides instructions on how to toggle Internet access on or off when working with ChatGPT.</p>
 
             <p style={{paddingBottom: '6px'}}><i>Two small notes to keep in mind when working with these models:</i></p>
             <ul style={{paddingLeft: '15px', paddingBottom: '6px'}}>
               <li style={{paddingBottom: '6px'}}>The open-source (Vector-hosted) models <b>do not allow for continuous context</b>. This means that the model will have no memory of previous instructions that have been sent to it within the same chat session; each inquiry is treated as novel and independent. For these models, you may have to copy/paste previous messages ahead of your prompt if you'd like the model to base it's responses off of this additional context.</li>
-              <li style={{paddingBottom: '6px'}}>On the other hand, the OpenAI and Google models <b>do allow for continuous context</b>, which comes with its own considerations. Specifically, for each new topic you wish to explore, you should open a new chat session (this should be a button on the left hand side of the user interface for these models) so that the model's responses are not based on any previous conversations you have had with the model.</li>
+              <li>On the other hand, the OpenAI and Google models <b>do allow for continuous context</b>, which comes with its own considerations. Specifically, for each new topic you wish to explore, you should open a new chat session (this should be a button on the left hand side of the user interface for these models) so that the model's responses are not based on any previous conversations you have had with the model.</li>
             </ul>
 
             </li>
