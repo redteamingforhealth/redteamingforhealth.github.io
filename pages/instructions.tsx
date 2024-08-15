@@ -399,7 +399,7 @@ export default class Home extends React.Component<any, any> {
             <p style={{paddingBottom: '6px'}}><i>Two small notes to keep in mind when working with these models:</i></p>
             <ul style={{paddingLeft: '15px', paddingBottom: '6px'}}>
               <li style={{paddingBottom: '6px'}}>The open-source (Vector-hosted) models <b>do not allow for continuous context</b>. This means that the model will have no memory of previous instructions that have been sent to it within the same chat session; each inquiry is treated as novel and independent. For these models, you may have to copy/paste previous messages ahead of your prompt if you'd like the model to base it's responses off of this additional context.</li>
-              <li>On the other hand, the OpenAI and Google models <b>do allow for continuous context</b>, which comes with its own considerations. Specifically, for each new topic you wish to explore, you should open a new chat session (this should be a button on the left hand side of the user interface for these models) so that the model's responses are not based on any previous conversations you have had with the model.</li>
+              <li>On the other hand, the OpenAI and Google models <b>do allow for continuous context</b>, which comes with its own considerations. Specifically, for each new topic you wish to explore, you should open a new chat session (this should be a button on the left hand side of the user interface for these models) so that the model's responses are not based on any previous messages you have sent to the model within the existing chat session.</li>
             </ul>
 
             </li>
