@@ -97,7 +97,7 @@ export default class Home extends React.Component<any, any> {
 
           <p style={{paddingBottom: "6px"}}>We will begin by convening in Room 1190 of the Bahen Centre at the University of Toronto. The Bahen Centre is located at 40 St. George Street. An interactive map of the campus highlighting the Bahen Centre is available <a href="https://map.utoronto.ca/?id=1809#!m/494470?share">here</a>.</p>
 
-          <p>The red teaming portion of the workshop will comprise breakout sessions hosted in Rooms 2185 and 2195 of the Bahen Centre. After introductions and splitting into red teaming small groups, directions to these rooms will be provided.</p>
+          <p style={{paddingBottom: "6px"}}>The red teaming portion of the workshop will comprise breakout sessions hosted in Rooms 2185 and 2195 of the Bahen Centre. After introductions and splitting into red teaming small groups, directions to these rooms will be provided.</p>
 
           <h2 style={{paddingBottom: "8px"}} className="text-xl">WiFi Access</h2>
 
