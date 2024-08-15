@@ -392,7 +392,7 @@ export default class Home extends React.Component<any, any> {
               </ul>
             </li>
             <li className="text-sm" style={{paddingBottom: '6px'}}>Ask one of the clinicians in your group to describe their clinical workflow. What types of [knowledge retrieval / text summarization / text generation / decision-making / image interpretation] tasks do they encounter, and how might access to one of these language models help them in their work? Critically consider potential use cases, as a key goal of this exercise is to ground the use of these models in realistic clinical scenarios.</li>
-            <li className="text-sm"><p style={{paddingBottom: '6px'}}>At this point, make sure your group is set up with more than one language model (different group members are welcome to work with different ones) -- a vulnerability that affects one model may not affect all of them. If you encounter difficulties, we've written a <a href="https://docs.google.com/document/d/1CCzk6qlUpLcwDDqbNbAX30a-uFsEO3ouHIbHjhC4xi0/edit?usp=sharing" target="_blank" >detailed user guide for each of the platforms</a>.</p>
+            <li className="text-sm"><p style={{paddingBottom: '6px'}}>At this point, make sure your group is set up with more than one language model (different group members are welcome to work with different ones) &mdash; a vulnerability that affects one model may not affect all of them. If you encounter difficulties, we've written a <a href="https://docs.google.com/document/d/1CCzk6qlUpLcwDDqbNbAX30a-uFsEO3ouHIbHjhC4xi0/edit?usp=sharing" target="_blank" >detailed user guide for each of the platforms</a>.</p>
 
             <p style={{paddingBottom: '6px'}}>ChatGPT (GPT-4o) allows Internet access to be toggled on or off, and the model may behave differently depending on whether it has Internet access. The above user guide provides instructions on how to toggle Internet access on or off when working with ChatGPT.</p>
 
@@ -405,7 +405,7 @@ export default class Home extends React.Component<any, any> {
             </li>
             <li className="text-sm" style={{paddingBottom: '6px'}}>Brainstorm a list of reasonable prompts to service these use cases. Your goal is to elicit a response from the language model that may present harm in a clinical setting. We interpret "harm" broadly; this could include generating text that is factually incorrect, under- or over- estimating a degree of risk, under- or over- estimating a degree of certainty in a recommendation, or omitting important information.
             <br></br>
-            <div style={{paddingTop: '6px', paddingBottom: '6px'}}>The table below contains some example prompts, responses, and explanations of harm to guide your thinking. As you can see from the below examples, some of the explanations of harm may be subtle -- keep a careful eye out for whether the details of the responses align with what would be clinically useful. An even more comprehensive list is provided below.</div>
+            <div style={{paddingTop: '6px', paddingBottom: '6px'}}>The table below contains some example prompts, responses, and explanations of harm to guide your thinking. As you can see from the below examples, some of the explanations of harm may be subtle &mdash; keep a careful eye out for whether the details of the responses align with what would be clinically useful. An even more comprehensive list is provided below.</div>
             <br></br>
             {/* CENTER the contents of this box */}
             <div className="block dark:hidden">

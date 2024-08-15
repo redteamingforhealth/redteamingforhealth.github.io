@@ -103,7 +103,7 @@ export default class Home extends React.Component<any, any> {
           </p>
           <br></br>
           <p>
-          This workshop will take the form of a hands-on "red teaming" exercise at the Machine Learning for Healthcare Conference (MLHC), 2024. Working in teams of clinicians and computer scientists, workshop participants will brainstorm realistic clinical scenarios in which modern LLMs may support information retrieval or decision-making, and highlight instances in which the model's output may yield downstream harm. For example, an LLM that incorrectly -- but confidently -- states that two drugs do not have harmful interaction properties may result in dangerous downstream treatment decisions, should the model be deployed in a clinical setting.
+          This workshop will take the form of a hands-on "red teaming" exercise at the Machine Learning for Healthcare Conference (MLHC), 2024. Working in teams of clinicians and computer scientists, workshop participants will brainstorm realistic clinical scenarios in which modern LLMs may support information retrieval or decision-making, and highlight instances in which the model's output may yield downstream harm. For example, an LLM that incorrectly &mdash; but confidently &mdash; states that two drugs do not have harmful interaction properties may result in dangerous downstream treatment decisions, should the model be deployed in a clinical setting.
           </p>
           <br></br>
 
