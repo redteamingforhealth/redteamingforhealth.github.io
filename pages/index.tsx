@@ -651,7 +651,7 @@ export default class Home extends React.Component<any, any> {
           <ul>
             <li style={{paddingLeft: "15px", paddingBottom: "10px"}}><i>Clinical consults:</i> Michael Colacci, M.D., Andre Amarel, M.D., Xun Zhao, M.D., Maxim Ben Yakov, M.D., William Tran, M.D., Robert Grant, M.D., Mamatha Bhat, M.D., Bima Hasjim, M.D.</li>
             <li style={{paddingLeft: "15px", paddingBottom: "10px"}}><i>Vector Institute Guidance & Technical Support:</i> Mark Coatsworth, Amrit Krishnan.</li>
-	    <li style={{paddingLeft: "15px", paddingBottom: "10px"}}><i>Google:</i> Stephen Pfohl, Heather Lewis</li>
+	    <li style={{paddingLeft: "15px", paddingBottom: "10px"}}><i>Google:</i> Stephen Pfohl, Heather Lewis.</li>
             <li style={{paddingLeft: "15px", paddingBottom: "10px"}}><i>OpenAI Guidance & Technical Support:</i> Karan Singhal.</li>
           </ul>
 
